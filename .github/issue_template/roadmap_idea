@@ -1,0 +1,41 @@
+name: Roadmap Idea
+description: Describe roadmap idea
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please ensure that the idea has not already been added to the [roadmap board]().
+
+        Thanks for contributing to Winding Tree!
+        
+  - type: dropdown
+    attributes:
+      label: Category
+      description: please select all the relevant categories
+      multiple: true
+      options:
+        - Protocol (e.g. Videre)
+        - Marketplace (e.g. win.so)
+        - Community
+        - Education
+        - Branding
+        - DAO transition
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Summary
+      description: Please provide a summary of the idea. 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Intended Outcomes
+      description: Specify all the intended outcomes of this idea.
+    validations:
+  - type: textarea
+    attributes:
+      label: How will it work?
+      description: provide any details on how it will work technically and/or practically?
